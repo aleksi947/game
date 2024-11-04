@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr); 
+  width: 550px; 
+  height: 550px; 
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	margin-top: 20px;
+}
