@@ -61,10 +61,10 @@ function startGame() {
 
 
 
-  // Запуск таймеров
+  
   moveMole();
   countDownTimerId = setInterval(countDown, 1000);
 }
 
-// Запуск игры при нажатии на кнопку
+
 startButton.addEventListener("click", startGame);
